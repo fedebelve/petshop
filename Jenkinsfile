@@ -5,7 +5,6 @@ pipeline{
         stage('build'){
             steps{
                 sh 'git pull origin master'
-                sh 'gradle init'
 		sh 'gradle build'
                 sh 'gradle bootRun'
             }
