@@ -41,6 +41,7 @@ jobs:
 
       # run tests!
       - run: gradle build
+      - run: gradle bootRun
 
 worflows:
   version: 2
