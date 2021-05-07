@@ -15,8 +15,8 @@ spotless {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 }
 
 springBoot {
